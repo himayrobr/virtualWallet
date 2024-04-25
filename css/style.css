@@ -50,7 +50,7 @@ body{
     margin-right: 25px;
     background: rgb(16, 161, 23);
 }
-.content{
+.utilities{
     background: var(--color-2);
     color: var(--color-4);
 }
@@ -59,4 +59,7 @@ body{
     flex-direction: row;
     justify-content: space-between;
     background:#8dd618 ;
+}
+.transactions{
+    background: rosybrown;
 }
