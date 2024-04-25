@@ -1,0 +1,18 @@
+:root{
+
+    --color-1:#5e20f9 ;
+    --color-2:#ed1c24;
+    --color-3:#000228;
+    --color-4:#fff;
+    --space-layout-pading-lr: 0px 15px;
+    --space-layout-padding-t:5px;
+    --layou-imagen-width:100%;
+    --layou-imagen-height:350px
+}
+
+@font-face{
+    font-family:"Diamonds-Regular";
+    src: url("../storage/fonts/Diamonds-Regular.ttf")
+}
+
+ 
