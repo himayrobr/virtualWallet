@@ -1,0 +1,25 @@
+:root{
+
+    --color-1:#5e20f9;
+    --color-2:rgb(51, 64, 79);
+    --color-3:#000228;
+    --color-4:#fff;
+    --color-5:#000228;
+    --color-6:#ed1c24;
+
+    --space-layout-pading-lr: 0px 15px;
+    --space-layout-padding-t:5px;
+    --layou-imagen-width:100%;
+    --layou-imagen-height:350px
+}
+
+@font-face{
+    font-family:"Diamonds-Regular";
+    src: url("../storage/fonts/Diamonds-Regular.otf");
+}
+@font-face{
+    font-family:"SF-pro-text-regular";
+    src: url("../storage/fonts/SF-pro-text-font-family/SF-Pro-Text-Regular.otf");
+}
+
+ 
