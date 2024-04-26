@@ -47,7 +47,7 @@ h1{
     margin-top: 10px;
     margin-left: 25px;
     margin-right: 25px;
-    background: rgb(161, 16, 36);
+    /* background: rgb(161, 16, 36); */
 }
 .figures{
     display: flex;
@@ -56,33 +56,86 @@ h1{
     margin-top: 10px;
     margin-left: 25px;
     margin-right: 25px;
-    background: rgb(16, 161, 23);
+    /* background: rgb(16, 161, 23); */
 }
 .bars{
     display: flex;
     flex-direction: row;
-    background: blue;
+    /* background: blue; */
     width: 150px;
     height: 20px;
     gap: 60px;  
 }
 .main{
 background: white;
+
 }
 .utilities{
-    background: var(--color-2);
+    /* background: var(--color-2); */
     color: var(--color-4);
+    margin-bottom: 50px;
+    color: black;
+}
+h2{
+    margin-left: 20px ;
 }
 .options{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    background:#8dd618 ;
+    justify-content: center;
+    /* background:#8dd618 ;  */
+    margin: 0 00px;
+    color: black;
+    gap: 50px;
+   
+    
+    
    
 }
 .box__options{
-    background: blue;
+    /* background: blue; */
+    border: solid rgb(240, 237, 237) ; 
+    border-radius: 10px;
+    padding-bottom: 30px;
+    box-shadow: 800px;
+}
+.box__options img{
+    
+    /* background-color: violet; */
 }
 .transactions{
-    background: rosybrown;
+    /* background: rosybrown; */
+}
+.footer{
+    background: red;
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    padding: var(--space-layout-padding-lr);
+}
+.footer__ul{
+    background: var(--color-4);
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 40px;
+    box-shadow: 0px 0px 55px 10px #fff;
+}
+.footer__ul li{
+    list-style: none;
+    background: var(--color-1);
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer__ul li a{
+    display: flex;
+}
+.footer__ul li a img{
+    object-fit: contain;
 }
