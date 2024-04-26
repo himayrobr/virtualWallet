@@ -6,20 +6,24 @@
   box-sizing: border-box;  
 }
 body{
-    background: var(--color-3);
+    background: url(../storage/img/back.svg);
+    align-content:center;
+    margin-top: 20px;
+
 }
 .header{
+    /* background: red; */
+  
     padding: var(--space-layout-padding-lr);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     height: 60px;
+    font-size: 25px;
+
 }
-.header__information{
-    width: 80px;
-    height: 80px;
-}
+
 .header__login{
     width: 40px;
     height: 40px;
@@ -31,6 +35,10 @@ body{
 }
 .welcome{
     color: var(--color-4);
+    margin: 50px 0 0 20px;
+}
+h1{
+    
 }
 .data{
     display: flex;
@@ -59,6 +67,10 @@ body{
     flex-direction: row;
     justify-content: space-between;
     background:#8dd618 ;
+   
+}
+.box__options{
+    background: blue;
 }
 .transactions{
     background: rosybrown;
