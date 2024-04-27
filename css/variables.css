@@ -12,9 +12,11 @@
 
 @font-face{
     font-family:"Diamonds-Regular";
-    src: url("../storage/fonts/Diamonds-Regular.ttf");
-
-    font-family:"SF-pro-text"
+    src: url("../storage/fonts/Diamonds-Regular.otf");
+}
+@font-face{
+    font-family:"SF-pro-text-regular";
+    src: url("../storage/fonts/SF-pro-text-font-family/SF-Pro-Text-Regular.otf");
 }
 
  
