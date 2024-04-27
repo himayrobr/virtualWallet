@@ -131,7 +131,7 @@ overflow-y: scroll;
     margin-left: 20px;
 }
 .transaction__arrow {
-    background: red;
+    /* background: red; */
     border-radius: px ;
     width: var( --layout-imagen-width-checkout);
     height: var(--layout-imagen-height-checkout);
