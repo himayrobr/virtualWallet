@@ -76,7 +76,7 @@ overflow-y: scroll;
 
 }
 .utilities{
-    /* background: var(--color-1);  */ */
+    /* background: var(--color-1);  */
     border-radius: 40px;
     color: var(--color-4);
     margin-bottom: 10px;
@@ -89,19 +89,22 @@ overflow-y: scroll;
     margin-bottom: 10px;
 }
 .options{
+    /* background:#8dd618 ; */
+    width: 370px; 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* background:#8dd618 ;   */
-    margin: 15px;
+    align-items: flex-start;
+    overflow-x: scroll;
     color: black;
+    gap: 15px;
     
 }
 .box__option h3{
     font-family:"Diamonds-Regular";
 }
 .box__options{
-    /* background: blue;  */
+    /* background: blue;  */ 
     border: solid rgb(240, 237, 237) ;
     border-radius: 10px;
     padding-top: 20px;
@@ -137,10 +140,8 @@ overflow-y: scroll;
     height: var(--layout-imagen-height-checkout);
 }
 .transaction__arrow img{
-    width: var( --layout-imagen-width-checkout);
-    height: var(--layout-imagen-height-checkout);
-    border-radius: 15px;
-    object-fit: cover;
+    height: 50px;
+    width: 50px;
 }
 .transaction__description {
     position: relative;
@@ -194,7 +195,7 @@ overflow-y: scroll;
     width: 20px;
 }
 .details span{
-    background: red;
+    /* background: red; */
 }
 .footer{
     position: fixed;
