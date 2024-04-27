@@ -71,12 +71,12 @@ padding: 0;
 /* background: white; */
 margin-top: 25px;
 background: var(--color-4);
-border-radius: 40px;
+border-radius: 40px 40px 0 0;
 overflow-y: scroll;
 
 }
 .utilities{
-    /* background: var(--color-1);  */
+    /* background: var(--color-1);  */ */
     border-radius: 40px;
     color: var(--color-4);
     margin-bottom: 10px;
@@ -119,26 +119,82 @@ overflow-y: scroll;
     /* background-color: violet;  */
 }
 
-.transactions{
-     background: rosybrown;
-     margin: 10px 0 60px 10px ;
-}
-.transactions__history{
-    background: blue;
+.details__transaction {
+    /* background: green;  */
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: var(--color-3);
+    margin-left: 20px;
+}
+.transaction__arrow {
+    background: red;
+    border-radius: px ;
+    width: var( --layout-imagen-width-checkout);
+    height: var(--layout-imagen-height-checkout);
+}
+.transaction__arrow img{
+    width: var( --layout-imagen-width-checkout);
+    height: var(--layout-imagen-height-checkout);
+    border-radius: 15px;
+    object-fit: cover;
+}
+.transaction__description {
+    position: relative;
+    /* background: violet; */
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.transaction__description h3{
+    font-size: 1em;
+    font-family: "EncodeSans-SemiBold";
+    color: var(--color-2);
+}
+.transaction__description small{
+    margin-top: 2px;
+    color: var(--color-3);
+}
+.transaction__description span{
+    font-family: "Diamonds-Regular";
+    position: absolute;
+    bottom: 0;
+    font-size: .9em;
+    color: var(--color-2);
+}
+.amount__date {
+     /* background: salmon;  */
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
 }
-
-.description{
-    display: flex;
-    justify-content: center;
-    background-color: red;
+.amount__date > img{
+    /* padding: 5px 5px; */
+    width: 35px;
+    align-self: flex-end;
+    object-fit: scale-down;
+    /* background: orange; */
 }
-.arrow{
-    background: violet;
+.details{
     display: flex;
-    flex-direction:column ;
-
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background: var(--color-1);
+    color: var(--color-5);
+    width: 90px;
+    height: 28px;
+    border-radius: 5px;
+}
+.details img{
+    height: 20px;
+    width: 20px;
+}
+.details span{
+    background: red;
 }
 .footer{
     position: fixed;
