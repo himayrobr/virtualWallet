@@ -19,21 +19,21 @@
     height: 60px;
     font-size: 25px;
     font-family:"Diamonds-Regular" ;
-    /* background: blue; */
+     /* background: blue; */ 
 }
 .welcome{
     color: var(--color-4);
     display: flex;
     flex-direction: column ;
     align-items: flex-start;
-    background: violet;    
+    /* background: violet;     */
     font-family:"Diamonds-Regular";
     margin: 0;
     padding: 0;
 }
 .welcome h2
 {margin: 10px 0 0px 10px;
-border: solid;
+/* border: solid; */
 padding: 0;
 }
 
@@ -60,7 +60,7 @@ padding: 0;
 .bars{
     display: flex;
     flex-direction: row;
-    background: blue; 
+    /* background: blue;  */
     justify-content: space-between;
     margin:0 10px;
     
@@ -76,7 +76,7 @@ overflow-y: scroll;
 
 }
 .utilities{
-    background: var(--color-1); 
+    /* background: var(--color-1);  */
     border-radius: 40px;
     color: var(--color-4);
     margin-bottom: 10px;
@@ -92,7 +92,7 @@ overflow-y: scroll;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background:#8dd618 ;  
+    /* background:#8dd618 ;   */
     margin: 15px;
     color: black;
     
@@ -101,7 +101,7 @@ overflow-y: scroll;
     font-family:"Diamonds-Regular";
 }
 .box__options{
-    background: blue; 
+    /* background: blue;  */
     border: solid rgb(240, 237, 237) ;
     border-radius: 10px;
     padding-top: 20px;
@@ -116,9 +116,7 @@ overflow-y: scroll;
     margin: 20px;
     width: 50px;
     height: 50px;
-
-
-    background-color: violet; 
+    /* background-color: violet;  */
 }
 
 .transactions{
@@ -130,9 +128,17 @@ overflow-y: scroll;
     display: flex;
     justify-content: space-between;
 }
-.transactions__history h5{
-    align-self: flex-end;
-    background: red;
+
+.description{
+    display: flex;
+    justify-content: center;
+    background-color: red;
+}
+.arrow{
+    background: violet;
+    display: flex;
+    flex-direction:column ;
+
 }
 .footer{
     position: fixed;
