@@ -1,6 +1,6 @@
 @import url(variables.css);
 *{
-  padding: 0;
+  padding:0;
   margin: 0;
   font-family:"Diamonds-regular.ttf";
   box-sizing: border-box;
@@ -9,6 +9,7 @@
     background: url(../storage/img/back.svg);
     background: var(--color-2);
     margin-bottom: 43px;
+
 }
 .header{
     padding: var(--space-layout-padding-lr);
@@ -19,7 +20,7 @@
     height: 30px;
     font-size: 25px;
     font-family:"SF-pro-text-regular" ;
-    /* background: blue;   */
+    background: blue; 
     color: var(--color-4);
     margin: 0 5px;
 }
