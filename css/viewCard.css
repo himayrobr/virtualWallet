@@ -1,16 +1,11 @@
 @import url(variables.css);
 *{
-  padding: 0;
-  margin: 0;
-  font-family:"Diamonds-regular.ttf";
-  box-sizing: border-box;
+padding: 0;
+margin: 0;
+font-family:"Diamonds-regular.ttf";
+box-sizing: border-box;
 }
-.top{
-    
-    background: var(--color-2);
-    margin-bottom: 43px;
 
-}
 .header{
     padding: var(--space-layout-padding-lr);
     display: flex;
@@ -20,7 +15,7 @@
     height: 30px;
     font-size: 25px;
     font-family:"SF-pro-text-regular" ;
-     background: blue;   
+    background: blue;   
     color: var(--color-3);
     margin: 0 5px;
 }
@@ -28,33 +23,50 @@
     width: 30px;
     height: 30px;   
 }
-.tips{
-    color: var(--color-3);
-    display: flex;
-    flex-direction: column ;
-    align-items: flex-start;
-    /* background: violet;     */
-    font-family:"SF-pro-text-regular";
-    margin-top:2px ;
-    margin-bottom: 2px;
-    padding: 0;
+.title{
+   margin-left: 10px;
+   margin-top: 20px;
+
 }
-.tips{
-    color: var(--color-3);
-    margin-top: 20px;}
+
 .pop__up{
-    margin-top: 150px;
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     background: red;
+    overflow-x:scroll;
+    margin-left: 20px;
+    margin-right: 20px; 
+    margin-bottom: 50px;
 }
-.pop__up title{
-    background: blue;
-    color: var(--color-3);
+.pork{
+    background: violet;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center ;
+    gap: 20px;
+    border-radius: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.pork img{
+    /* background: black; */
 }
 .pop__up img{
- width: 200px;
- height: 200px;
+    width: 100px;
+    height: 100px;
+    }
+.pop__up__title{
+    background: blue;
+    color: var(--color-3);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+
+
 }
 .pop__up__text{
     background: blue;
@@ -62,6 +74,20 @@
     flex-direction: column;
 
 }
+.credit__Card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: green;
+    overflow-x: scroll;
+    gap:20px;
+    height: 622px;
+}
+.credit__Cards{
+    width: 250px;
+    height: 622px;
+}
+
 .footer{
     position: fixed;
     bottom: 0;
