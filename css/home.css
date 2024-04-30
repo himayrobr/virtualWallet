@@ -1,9 +1,9 @@
 @import url(variables.css);
 *{
-padding:0;
-margin: 0;
-font-family:"Diamonds-regular.ttf";
-box-sizing: border-box;
+  padding:0;
+  margin: 0;
+  font-family:"Diamonds-regular.ttf";
+  box-sizing: border-box;
 }
 .header{
     padding: var(--space-layout-padding-lr);
