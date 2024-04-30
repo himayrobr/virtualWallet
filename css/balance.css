@@ -5,6 +5,14 @@ margin: 0;
 font-family:"Diamonds-regular.ttf";
 box-sizing: border-box;
 }
+body{
+        background-image: url('../storage/img/moon.svg');
+        /* background-size: cover; */
+        background-position: bottom; /* Posiciona la imagen en la parte inferior del pseudoelemento */
+        background-repeat: no-repeat;
+        width: 200px;
+        height: 200px;
+    }
 .header{
     padding: var(--space-layout-padding-lr);
     display: flex;
@@ -14,7 +22,7 @@ box-sizing: border-box;
     height: 30px;
     font-size: 25px;
     font-family:"SF-pro-text-regular" ;
-    background: blue; 
+    /* background: blue;  */
     color: var(--color-4);
     margin: 0 5px;
 }
@@ -22,6 +30,22 @@ box-sizing: border-box;
     width: 30px;
     height: 30px;
 }
+.total{
+    margin: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px; /* Ancho del elemento */
+    height: 100px; /* Altura del elemento */
+    border-radius: 50%; /* Valor para crear un círculo */
+    border-color: solid green;
+    background: green;
+    padding: 100px 100px 100px 100px;
+    margin: ;
+    
+}
+
 .footer{
     position: fixed;
     bottom: 0;
