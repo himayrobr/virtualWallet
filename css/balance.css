@@ -6,25 +6,23 @@ font-family:"Diamonds-regular.ttf";
 box-sizing: border-box;
 }
 body{
-        background-image: url('../storage/img/moon.svg');
-        /* background-size: cover; */
-        background-position: bottom; /* Posiciona la imagen en la parte inferior del pseudoelemento */
-        background-repeat: no-repeat;
-        width: 200px;
-        height: 200px;
-    }
+    background: url(../storage/img/moonH.png);
+    background-repeat: no-repeat;
+    z-index: -2;
+    position: relative;
+}
 .header{
     padding: var(--space-layout-padding-lr);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    height: 30px;
     font-size: 25px;
     font-family:"SF-pro-text-regular" ;
-    /* background: blue;  */
-    color: var(--color-4);
-    margin: 0 5px;
+    background: var(--color-1)
+    color: var(--color-1);
+    z-index: 10;
+    right: 50;
+    
 }
 .header img{
     width: 30px;
@@ -42,8 +40,16 @@ body{
     border-color: solid green;
     background: green;
     padding: 100px 100px 100px 100px;
-    margin: ;
     
+}
+.buttons{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: red;
+    position: relative;
+
 }
 
 .footer{
