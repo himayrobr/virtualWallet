@@ -1,9 +1,15 @@
 @import url(variables.css);
 *{
-  padding:0;
-  margin: 0;
-  font-family:"Diamonds-regular.ttf";
-  box-sizing: border-box;
+    padding:0;
+    margin: 0;
+    font-family:"Diamonds-regular.ttf";
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-5);
 }
 .header{
     padding: var(--space-layout-padding-lr);
@@ -14,13 +20,61 @@
     height: 30px;
     font-size: 25px;
     font-family:"SF-pro-text-regular" ;
-    background: blue; 
+    background: var(--color-6);
     color: var(--color-4);
     margin: 0 5px;
 }
 .header img{
     width: 30px;
     height: 30px;
+}
+
+
+.contenedor {
+    width: 400px;
+    margin: 50px auto;
+    background-color:var(--color-6);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
 }
 .footer{
     position: fixed;
@@ -31,7 +85,7 @@
 
 }
 .footer__ul{
-    background: rgb(51, 64, 79);
+    background: var(--color-6);
     height: 40px;
     display: flex;
     flex-direction: row;

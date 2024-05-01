@@ -30,7 +30,7 @@ box-sizing: border-box;
     position: absolute;
     width: 500px;
     height: 500px;
-    background-color: var(--color-2);
+    background-color: var(--color-6);
     object-fit: cover;
     border-radius: 100%;
     transform: translate(-17%, -65%);
@@ -46,8 +46,8 @@ box-sizing: border-box;
     width: 100px; /* Ancho del elemento */
     height: 100px; /* Altura del elemento */
     border-radius: 50%; /* Valor para crear un círculo */
-    
-    background: #00DDA3;
+    color: var(--color-4);
+    background: var(--color-5);
     padding: 90px; 
 }
 .buttons{
@@ -55,7 +55,7 @@ box-sizing: border-box;
     flex-direction: row;
     justify-content: space-evenly;
     margin: 10px 20px;
-    background: red;
+    /* background: red; */
     position: relative;
 }
 .button{
@@ -66,7 +66,7 @@ box-sizing: border-box;
 
 }
 .graphics{
-    background: red;
+    /* background: red; */
     height:150px ;
     width: 330px;
     margin-left: 20px;
@@ -79,17 +79,18 @@ box-sizing: border-box;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background: blue;
+    /* background: blue; */
     margin-left: 20px;
     margin-right: 20px;
 }
 .pop__up{
     display: flex;
-    background: red;
+    /* background: red; */
     margin-bottom: 40px;
     justify-content: space-evenly;
     gap: 20px;
     margin-top: 30px;
+    margin-right: 10px;
 }
 .pop__up img{
 margin-left: 20px;    
@@ -106,7 +107,7 @@ height: 100px;
 
 }
 .footer__ul{
-    background: rgb(51, 64, 79);
+    background: var(--color-6);
     height: 40px;
     display: flex;
     flex-direction: row;
