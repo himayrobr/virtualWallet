@@ -26,9 +26,10 @@ box-sizing: border-box;
     height: 30px;
 }
 .background{
+    margin-left: 20px;
     position: absolute;
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
     background-color: var(--color-2);
     object-fit: cover;
     border-radius: 100%;
@@ -37,7 +38,7 @@ box-sizing: border-box;
 }
 
 .total{
-    margin: 90px;
+    margin: 50px 0 0px 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -45,23 +46,55 @@ box-sizing: border-box;
     width: 100px; /* Ancho del elemento */
     height: 100px; /* Altura del elemento */
     border-radius: 50%; /* Valor para crear un círculo */
-    border-color: solid green;
-    background: green;
-    padding: 100px 100px 100px 100px;
+    
+    background: #00DDA3;
+    padding: 90px;
     
 }
 .buttons{
-    
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    gap: 50px;
-    margin: 0 20px;
+    justify-content: space-evenly;
+    margin: 20px 20px;
     background: red;
     position: relative;
 }
 .button{
+    /* background: blue; */
+    border-radius: 20px;
+    padding: 10px;
+    border-color: var(--color-1);
+
+}
+.graphics{
+    background: red;
+    height:150px ;
+    width: 330px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.graphics img{
+
+}
+.days{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     background: blue;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.pop__up{
+    display: flex;
+    background: red;
+    margin-bottom: 40px;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.pop__up img{
+margin-left: 20px;    
+width: 130px;
+height: 130px;
 }
 
 .footer{
