@@ -13,8 +13,8 @@ box-sizing: border-box;
     justify-content: space-between;
     font-size: 25px;
     font-family:"SF-pro-text-regular" ;
-    background: var(--color-1);
-    color: var(--color-1);
+    /* background: var(--color-1); */
+    color: var(--color-4);
     position:relative;
     padding: var(--space-layout-padding-lr);
     height: 40px;
@@ -38,7 +38,7 @@ box-sizing: border-box;
 }
 
 .total{
-    margin: 50px 0 0px 100px;
+    margin: 40px 0 0px 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -48,14 +48,13 @@ box-sizing: border-box;
     border-radius: 50%; /* Valor para crear un círculo */
     
     background: #00DDA3;
-    padding: 90px;
-    
+    padding: 90px; 
 }
 .buttons{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin: 20px 20px;
+    margin: 10px 20px;
     background: red;
     position: relative;
 }
@@ -90,11 +89,12 @@ box-sizing: border-box;
     margin-bottom: 40px;
     justify-content: space-evenly;
     gap: 20px;
+    margin-top: 30px;
 }
 .pop__up img{
 margin-left: 20px;    
-width: 130px;
-height: 130px;
+width: 100px;
+height: 100px;
 }
 
 .footer{
